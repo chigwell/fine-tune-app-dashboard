@@ -1,0 +1,23 @@
+.item-title {
+    font-weight: bold !important;
+
+}
+item-inner {
+    overflow-wrap: anywhere !important;
+}
+textarea {
+    min-height: 400px !important;
+}
+
+.allow-wrap .item-inner {
+  align-items: flex-start;
+}
+.allow-wrap .item-title {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: initial;
+  line-height: 1.35;
+}
+.important-weight.allow-wrap>label.item-content.item-checkbox {
+    padding-left: 2px;
+}
